@@ -80,5 +80,5 @@ Pinteresting::Application.configure do
 
   # Required for Heroku
   # Note to set this to your actual host name (e.g. if you setup domain for use at jude-pinteresting.com)
-  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+  config.action_mailer.default_url_options = { :host => 'http://jude-pinteresting.herokuapp.com/' }
 end
